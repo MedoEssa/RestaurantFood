@@ -1,0 +1,14 @@
+in your css file set body & HTML font-size to 10px ...and then use rems for everything...for padding, margin, font-size, height, width etc. 20px would be 2rem...15px is 1.5rem, 100px is 10rem...32px is 3.2rem(just divide your pixel value by 10 and use rem...thats why we set body font size to 10px for easier calc). And when you are adding media queries...you don't have to alter and change margins padding heights of every element..just inside media queries change font-size of body to 9px/8px so everything in rems will now have base changed from 10 to 9/8. for next media query change it to 7/6px. Saves you a lot of time. And for images i use vmin/vmax and for hero images/sections i use vw/vh.
+
+John Wolfe yeah forgot to mention for div containers width and height i do use %. That is inescapable. Div inside your column row layout (whether it is bootstrap, custom css grid using floats, or CSS grid) or div inside a div you would have to use % obviously.
+
+
+
+*************************************************************
+
+learnhowtoprogram.com
+36.310
+12700
+16480
+3780
+32530
